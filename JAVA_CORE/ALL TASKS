@@ -1174,13 +1174,6 @@ public class HttpClientExample {
         System.out.println("Body: " + response.body());
     }
 }
-Status Code: 200
-Body: {
-  "login": "octocat",
-  "id": 583231,
-  "node_id": "...",
-  ...
-}
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -1197,33 +1190,13 @@ javac SampleClass.java
 javap -c SampleClass
 
 
-Compiled from "SampleClass.java"
-public class SampleClass {
-  public int add(int, int);
-    Code:
-       0: iload_1
-       1: iload_2
-       2: iadd
-       3: ireturn
-}
-
 38. public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, Java!");
     }
 }
-bash
-Copy code
 javac HelloWorld.java
 java -jar cfr.jar HelloWorld.class
-
-
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, Java!");
-    }
-}
-
 
 39.
 import java.lang.reflect.Method;
