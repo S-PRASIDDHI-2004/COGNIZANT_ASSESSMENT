@@ -1,0 +1,648 @@
+EXERCISE 1 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Community Event Portal</title>
+  <link rel="stylesheet" href="style.css"> <!-- Optional external stylesheet -->
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1>Community Event Portal</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <section>
+      <h2>Welcome to the City Events Portal</h2>
+      <p>Find and register for local events happening in your city!</p>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 City Council. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+EXERCISE 2: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Community Event Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li {
+      display: inline;
+    }
+    section {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1>Community Event Portal</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="help.html" target="_blank">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Home Section -->
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>This is the official portal to explore and register for local events in your community.</p>
+  </section>
+  <!-- Events Section -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <p>Stay updated with all the exciting happenings in the city.</p>
+    <!-- More content can be added here -->
+  </section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to your local city council.</p>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 City Council. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+EXERCISE 3 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Banner Example</title>
+  <style>
+    #welcomeBanner {
+      background-color: #007BFF; 
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      border-radius: 8px;
+    }
+    .highlight {
+      background-color: yellow;
+      padding: 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Welcome banner -->
+  <div id="welcomeBanner">
+    Welcome back, <span class="highlight">Kavya</span>!
+    <span style="color: red; font-weight: bold;">Don't miss today's special offer!</span>
+  </div>
+  <!-- Example of class used elsewhere -->
+  <p class="highlight">You have 2 new event invites.</p>
+</body>
+</html>
+
+EXERCISE 4 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Event Gallery</title>
+  <style>
+    .event-image {
+      width: 200px;
+      height: auto;
+      border: 3px solid #555;
+      border-radius: 8px;
+      padding: 5px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: separate;
+      border-spacing: 15px;
+      text-align: center;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Memorable Moments from Past Community Events</caption>
+    <tr>
+      <td>
+        <img src="event1.jpg" class="event-image" alt="Tree Plantation Drive" title="Tree Plantation Drive">
+        <p>Tree Plantation Drive</p>
+      </td>
+      <td>
+        <img src="event2.jpg" class
+
+EXERCISE 5 : 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    form {
+      background: #fff;
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    output {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+      color: green;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Community Event Registration</h2>
+  <form id="eventForm" onsubmit="handleSubmit(event)">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required autofocus>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    <label for="date">Event Date</label>
+    <input type="date" id="date" name="date" required>
+    <label for="type">Event Type</label>
+    <select id="type" name="type" required>
+      <option value="">--Select Event--</option>
+      <option value="workshop">Workshop</option>
+      <option value="seminar">Seminar</option>
+      <option value="volunteering">Volunteering</option>
+    </select>
+    <label for="message">Message (Optional)</label>
+    <textarea id="message" name="message" rows="4" placeholder="Any comments or questions?"></textarea>
+    <button type="submit">Register</button>
+    <output id="confirmation"></output>
+  </form>
+  <script>
+    function handleSubmit(event) {
+      event.preventDefault(); // Prevent actual form submission
+      const name = document.getElementById('name').value;
+      const type = document.getElementById('type').value;
+      const output = document.getElementById('confirmation');
+      output.textContent = `Thank you, ${name}! You have successfully registered for the ${type} event.`;
+    }
+  </script>
+</body>
+</html>
+
+EXERCISE 6 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Feedback</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2f3;
+      padding: 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #aaa;
+    }
+    #submitBtn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    #submitBtn:hover {
+      background-color: #0056b3;
+      cursor: pointer;
+    }
+    #feeDisplay, #charCount, #confirmation {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    #eventImage {
+      width: 100px;
+      border-radius: 5px;
+      margin-top: 15px;
+      transition: transform 0.3s;
+      cursor: zoom-in;
+    }
+
+    #eventImage.enlarged {
+      transform: scale(2);
+      cursor: zoom-out;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Event Feedback</h2>
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" placeholder="Enter 10-digit phone" onblur="validatePhone()">
+    <div id="phoneError" style="color: red;"></div>
+    <label for="event">Select Event</label>
+    <select id="event" onchange="displayFee()">
+      <option value="">--Select--</option>
+      <option value="Workshop">Workshop - ₹200</option>
+      <option value="Seminar">Seminar - ₹150</option>
+      <option value="Webinar">Webinar - ₹100</option>
+    </select>
+    <div id="feeDisplay"></div>
+    <label for="feedback">Feedback</label>
+    <textarea id="feedback" rows="4" placeholder="Share your experience..." onkeyup="countCharacters()"></textarea>
+    <div id="charCount">Characters: 0</div>
+
+    <img id="eventImage" src="https://via.placeholder.com/100" alt="Event Image" ondblclick="enlargeImage()" title="Double-click to enlarge">
+    <button type="button" id="submitBtn" onclick="showConfirmation()">Submit Feedback</button>
+    <div id="confirmation" style="color: green;"></div>
+  </form>
+  <script>
+    function validatePhone() {
+      const phone = document.getElementById('phone').value;
+      const error = document.getElementById('phoneError');
+      const phonePattern = /^\d{10}$/;
+      if (!phonePattern.test(phone)) {
+        error.textContent = "Please enter a valid 10-digit number.";
+      } else {
+        error.textContent = "";
+      }
+    }
+    function displayFee() {
+      const event = document.getElementById('event').value;
+      const feeDisplay = document.getElementById('feeDisplay');
+      let fee = "";
+      switch (event) {
+        case "Workshop":
+          fee = "₹200";
+          break;
+        case "Seminar":
+          fee = "₹150";
+          break;
+        case "Webinar":
+          fee = "₹100";
+          break;
+        default:
+          fee = "";
+      }
+      feeDisplay.textContent = event ? `Fee: ${fee}` : "";
+    }
+    function countCharacters() {
+      const feedback = document.getElementById('feedback').value;
+      document.getElementById('charCount').textContent = `Characters: ${feedback.length}`;
+    }
+    function enlargeImage() {
+      const img = document.getElementById('eventImage');
+      img.classList.toggle('enlarged');
+    }
+
+    function showConfirmation() {
+      const phone = document.getElementById('phone').value;
+      const event = document.getElementById('event').value;
+      if (phone && event) {
+        document.getElementById('confirmation').textContent = "Feedback submitted successfully!";
+      } else {
+        document.getElementById('confirmation').textContent = "Please complete all fields.";
+      }
+    }
+  </script>
+</body>
+</html>
+
+EXERCISE 7 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Event Video Invite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+      max-width: 600px;
+      margin: auto;
+    }
+    #videoMessage {
+      margin-top: 10px;
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Event Promo Video</h2>
+  <video id="promoVideo" width="100%" controls oncanplay="videoReady()">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div id="videoMessage"></div>
+  <script>
+    function videoReady() {
+      document.getElementById('videoMessage').textContent = "Video ready to play";
+    }
+    window.onbeforeunload = function(event) {
+      const video = document.getElementById('promoVideo');
+      if (!video.ended) {
+        const message = "You have not finished watching the video. Are you sure you want to leave?";
+        event.returnValue = message; 
+        return message;              
+      }
+    };
+  </script>
+</body>
+</html>
+
+EXERCISE 8 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Save User Preferences</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      background: #f0f8ff;
+    }
+    label, select, button {
+      display: block;
+      margin-bottom: 15px;
+      width: 100%;
+      font-size: 1rem;
+    }
+    button {
+      cursor: pointer;
+      padding: 10px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Select Your Preferred Event Type</h2>
+  <label for="eventType">Event Type:</label>
+  <select id="eventType">
+    <option value="">-- Select Event --</option>
+    <option value="meetup">Tech Innovators Meetup</option>
+    <option value="bootcamp">Frontend Development Bootcamp</option>
+    <option value="conference">AI & ML Conference</option>
+  </select>
+  <button id="clearPrefsBtn">Clear Preferences</button>
+  <script>
+    const eventSelect = document.getElementById('eventType');
+    const clearBtn = document.getElementById('clearPrefsBtn');
+    window.onload = () => {
+      const savedEvent = localStorage.getItem('preferredEvent');
+      if (savedEvent) {
+        eventSelect.value = savedEvent;
+      }
+    };
+    eventSelect.addEventListener('change', () => {
+      const selectedValue = eventSelect.value;
+      if (selectedValue) {
+        localStorage.setItem('preferredEvent', selectedValue);
+        sessionStorage.setItem('preferredEventSession', selectedValue); // just for demo
+      } else {
+        localStorage.removeItem('preferredEvent');
+        sessionStorage.removeItem('preferredEventSession');
+      }
+    });
+    clearBtn.addEventListener('click', () => {
+      localStorage.removeItem('preferredEvent');
+      sessionStorage.removeItem('preferredEventSession');
+      eventSelect.value = "";
+      alert('Preferences cleared!');
+    });
+  </script>
+</body>
+</html>
+
+EXERCISE 9 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Geolocation for Event Mapping</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #eef7ff;
+      text-align: center;
+    }
+    button {
+      padding: 12px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #output {
+      font-size: 1.1rem;
+      color: #333;
+      min-height: 60px;
+      border: 1px solid #007bff;
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <h2>Find Nearby Events</h2>
+  <button id="findBtn">Find Nearby Events</button>
+  <div id="output">Click the button to get your location.</div>
+  <script>
+    const output = document.getElementById('output');
+    const findBtn = document.getElementById('findBtn');
+    function success(position) {
+      const latitude  = position.coords.latitude.toFixed(6);
+      const longitude = position.coords.longitude.toFixed(6);
+      output.textContent = `Your coordinates: 
+      \nLatitude: ${latitude} \nLongitude: ${longitude}`;
+    }
+    function error(err) {
+      switch(err.code) {
+        case err.PERMISSION_DENIED:
+          output.textContent = "Error: Permission denied. Please allow location access.";
+          break;
+        case err.POSITION_UNAVAILABLE:
+          output.textContent = "Error: Position unavailable.";
+          break;
+        case err.TIMEOUT:
+          output.textContent = "Error: Request timed out. Try again.";
+          break;
+        default:
+          output.textContent = "Error: An unknown error occurred.";
+          break;
+      }
+    }
+    findBtn.addEventListener('click', () => {
+      if (!navigator.geolocation) {
+        output.textContent = "Geolocation is not supported by your browser.";
+        return;
+      }
+      output.textContent = "Locating… Please wait.";
+      navigator.geolocation.getCurrentPosition(success, error, {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 0
+      });
+    });
+  </script>
+</body>
+</html>
+ 
+EXERCISE 10 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Debugging Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #debugBtn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #debugBtn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Debugging with Chrome DevTools & VS Code</h1>
+  <button id="debugBtn">Click me to debug</button>
+  <script>
+    console.log('Page loaded successfully.');
+    // Function to calculate factorial of a number
+    function factorial(n) {
+      console.log(`Calculating factorial of ${n}`);
+      if (n < 0) {
+        console.error('Negative input not allowed!');
+        return null;
+      }
+      let result = 1;
+      for (let i = 1; i <= n; i++) {
+        result *= i;
+        console.log(`Step ${i}: result = ${result}`);
+      }
+      return result;
+    }
+    document.getElementById('debugBtn').addEventListener('click', () => {
+      const num = 5;
+      console.log(`Button clicked, calculating factorial for ${num}`);
+      const fact = factorial(num);
+      console.log(`Factorial of ${num} is ${fact}`);
+      alert(`Factorial of ${num} is ${fact}`);
+    });
+  </script>
+</body>
+</html>
